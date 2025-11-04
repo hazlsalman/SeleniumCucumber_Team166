@@ -1,6 +1,6 @@
 
   Feature: US1005 Kullanici gecerli bilgilerle sisteme giris yapar
-
+    @rapor
     Scenario: TC10 kullanici gecerli bilgilerle sisteme giris yapabilmeli
 
       Given kullanici testotomasyonu anasayfaya gider
@@ -11,4 +11,3 @@
       Then basarili olarak giris yapilabildigini test eder
       And kodlari 2 saniye bekletir
       Then logout butonuna basarak cikis yapar
-      And sayfayi kapatir

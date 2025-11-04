@@ -165,4 +165,18 @@ public class TestotomasyonuStepDefinitions {
         Driver.getDriver().get(ConfigReader.getProperty(configDosyasiUrl));
 
     }
+
+    @When("email olarak listede verilen {string} girer")
+    public void emailOlarakListedeVerilenGirer(String direkVerilenEmail) {
+
+        testOtomasyonuPage.loginSayfasiEmailKutusu.sendKeys(direkVerilenEmail);
+
+    }
+
+    @And("password olarak listede verilen {string} girer")
+    public void passwordOlarakListedeVerilenGirer(String direkVerilenPassword) {
+
+        testOtomasyonuPage.loginSayfasiPasswordKutusu.sendKeys(direkVerilenPassword);
+
+    }
 }

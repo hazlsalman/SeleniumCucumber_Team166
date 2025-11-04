@@ -8,4 +8,3 @@
       And kodlari 1 saniye bekletir
       Then ilk urunu tiklar
       And acilan sayfadaki urun isminin case sensitive olmadan config dosyasindaki toAranacakKelime icerdigini test eder
-      And sayfayi kapatir
