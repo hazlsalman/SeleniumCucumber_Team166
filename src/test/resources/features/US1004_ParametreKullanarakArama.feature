@@ -1,7 +1,7 @@
 
   Feature: US1004 KUllanici parametre kullanarak istedigi kelimeyi aratir
 
-
+    @paralel2
     Scenario: TC08 Kullanici istedigi kelimeyi aratabilmeli
 
       Given kullanici testotomasyonu anasayfaya gider

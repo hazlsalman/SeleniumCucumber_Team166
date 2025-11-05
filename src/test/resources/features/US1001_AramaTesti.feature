@@ -8,7 +8,7 @@
       Then arama sonucunda urun bulunabildigini test eder
 
 
-    @E2E_kullanici
+    @E2E_kullanici @paralel1
     Scenario: TC02  kullanici testotomasyonu sayfasinda dress bulabilmeli
 
       Given kullanici testotomasyonu anasayfaya gider
@@ -16,7 +16,7 @@
       Then arama sonucunda urun bulunabildigini test eder
 
 
-
+    @paralel2
     Scenario: TC03  kullanici testotomasyonu sayfasinda travel aratinca urun bulabilmeli
 
       Given kullanici testotomasyonu anasayfaya gider

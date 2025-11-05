@@ -1,4 +1,4 @@
-
+  @paralel1
   Feature: US1003 kullanici aradigi kelime icin uygun sonuc bulur
 
     Scenario: TC07 kullanici aradigi kelime sonucunda bulunan urun isimlerinin

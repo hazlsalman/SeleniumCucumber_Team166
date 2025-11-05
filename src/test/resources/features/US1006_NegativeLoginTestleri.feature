@@ -11,7 +11,7 @@
       And kodlari 2 saniye bekletir
       When Sisteme giris yapilamadigini test eder
 
-
+    @paralel2
     Scenario: TC12 kullanici gecersiz email ve gecerli password ile giris yapamamali
 
       Given kullanici testotomasyonu anasayfaya gider
